@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>오늘 할 일</title>
+    <title>심심해</title>
     
     <link rel="stylesheet" href="./style.css">
     
@@ -12,33 +12,74 @@
     <meta property="og:description"content="재밌는 거 좀 하자">
     <meta property="og:image"content="./1.png">
 
+    <style>
+        /* 이미지 크기 조정 */
+        img {
+            width: 450px;
+            height: 450px;
+        }
+
+        /* 가로로 배치 */
+        ul {
+            display: flex;
+            list-style-type: none;
+            padding: 0;
+        }
+
+        /* 아이템 사이 간격 조정 */
+        li {
+            margin-right: 10px;
+        }
+
+         /* 텍스트 가운데 정렬 */
+         li a {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+          /* 텍스트 가운데 정렬 */
+          h1, h2, p {
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
 
-    <h1>모두를 위한 코딩 강의 - 테킷</h1>
+    <h1>심 심 해</h1>
 
     <div>
-        <h2>멋쟁이사자처럼 스쿨</h2>
+        <h2>놀 자</h2>
 
-        <p>멋쟁이사자처럼 스쿨이<br>여러분을 환영합니다</p>
+        <p>다 해 줘 야 함</p>
 
-        <ol>
-            <li><a href="https://techit.education/school/kdt-frontend-7th">
-                    프론트엔드 스쿨
+        <ul>
+            <li><a href="https://www.netflix.com/watch/81671446?trackId=255824129&tctx=0%2C0%2CNAPA%40%40%7C1c0e6262-1b8d-475f-af56-47c766237f47-148178976_titles%2F1%2F%2F%ED%82%B9%EB%8D%94%EB%9E%9C%EB%93%9C%2F0%2F0%2CNAPA%40%40%7C1c0e6262-1b8d-475f-af56-47c766237f47-148178976_titles%2F1%2F%2F%ED%82%B9%EB%8D%94%EB%9E%9C%EB%93%9C%2F0%2F0%2C%2C%2C1c0e6262-1b8d-475f-af56-47c766237f47-148178976%7C1%2C%2C81671440%2CVideo%3A81671446%2CdetailsPageEpisodePlayButton" target="_blank">
+                <img src="./king.jpg" alt="넷플릭스">    
+                넷플릭스 보기
                 </a>
             </li>
             <li>
-                <a href="https://techit.education/school/kdt-backend-5th" target="_blank">
-                    백엔드 스쿨
+                <a href="https://www.youtube.com/watch?v=jIQdvyvZcxo" target="_blank">
+                    <img src="./gold.jpg" alt="금쪽같은내새끼">
+                    금쪽이 보기
                 </a>
             </li>
             <li>
-                <a href="#">
-                    블록체인 스쿨
+                <a href="https://playvalorant.com/ko-kr/?utm_source=paid&utm_medium=naver_brandsearch_p&utm_campaign=valep7&utm_content=homelink&utm_term=%EB%B0%9C%EB%A1%9C%EB%9E%80%ED%8A%B8 " target="_blank">
+                    <img src="./val.jpg" alt="발로란트">
+                    발로란트 하기
                 </a>
             </li>
-        </ol>
+            <li>
+                <a href="https://tr.game.onstove.com/index.asp" target="_blank">
+                    <img src="./tel.jpg" alt="테런">
+                    테런 하기
+                </a>
+            </li>
+        </ul>
     </div>
 
 </body>
